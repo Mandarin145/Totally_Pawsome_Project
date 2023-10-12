@@ -1,4 +1,4 @@
-# cfg-project-group1
+# Totally Pawsome
 This application is a Python Flask web app that uses Jinja templates and SQLAlchemy to create a website which enables users to search through web api of pets available for adoption and adopt a pet of their preference. 
 
 
@@ -14,6 +14,7 @@ This application is a Python Flask web app that uses Jinja templates and SQLAlch
 # Download Code
 
 Clone this repository via this link:
+https://github.com/Mandarin145/Totally_Pawsome_Project
 
 
 # Setup
