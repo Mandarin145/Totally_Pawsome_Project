@@ -1,0 +1,4 @@
+__pycache__
+cfg-project-group1/.idea/
+application/__pycache__/*
+.env

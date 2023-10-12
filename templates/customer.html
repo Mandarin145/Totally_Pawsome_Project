@@ -1,0 +1,50 @@
+{% extends 'base2.html' %}
+
+{% block content %}
+
+
+{% if name %}
+    <h1>Hello {{ firstname }}!</h1>
+{% else %}
+
+    <h2>Please Register</h2>
+    <br>
+    <form action="", method="POST">
+        <br>
+        {{ form.firstname.label(class="form-label") }}
+        {{ form.firstname(class="form-control") }}
+        <br>
+        {{ form.lastname.label(class="form-label") }}
+        {{ form.lastname(class="form-control") }}
+        <br>
+        {{ form.phone.label(class="form-label") }}
+        {{ form.phone(class="form-control") }}
+        <br>
+        {{ form.email.label(class="form-label") }}
+        {{ form.email(class="form-control") }}
+        <br>
+        {{ form.address.label(class="form-label") }}
+        {{ form.address(class="form-control") }}
+        <br>
+        {{ form.city_name.label(class="form-label") }}
+        {{ form.city_name(class="form-control") }}
+        <br>
+        {{ form.state.label(class="form-label") }}
+        {{ form.state(class="form-control") }}
+        <br>
+        {{ form.zipcode.label(class="form-label") }}
+        {{ form.zipcode(class="form-control") }}
+        <br>
+        {{ form.submit(class="btn btn-danger") }}
+
+
+    </form>
+<br/><br/><br/>
+{% for our_customer in our_customers %}
+    {{ our_customer.firstname }}, {{ our_customer.lastname }} - {{ our_customer.email }}<br/>
+{% endfor %}
+
+{% endif %}
+
+
+{% endblock %}

@@ -1,0 +1,1030 @@
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 128-420-754
+werkzeug - INFO - 127.0.0.1 - - [02/Nov/2022 15:46:12] "GET /adopt HTTP/1.1" 200 -
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjM0ODczMWY0NzA2MDY1ZmI2YzIzNTAyMTEyYmY2M2QxZGFlZmEwZjU3OTU0NmJkZDAxNjg5Y2RlMGEyODU4ODYwZmIxNDhmZjcwMWFlMjE0IiwiaWF0IjoxNjY3NDAzOTc3LCJuYmYiOjE2Njc0MDM5NzcsImV4cCI6MTY2NzQwNzU3Nywic3ViIjoiIiwic2NvcGVzIjpbXX0.ztudsFTR-2SP4powSt-TGr3T93FmPu8OJgz3oP6Bg58u6i9IyTBxvqGW0RC_sCOGZPGVYbyXDdzjltQsGcqk5gHAfXlg8tk1fmQP39p8dI3R9AhWTDQdHbOd1I7IvXk0W36CzbO5Mn9iiBPRZrJvxEDhAIHkWqH7KRjz3zRJr75HmWYDjbAfvqHxui2Pi2wyGfB75vQGxQBeCsk7iH9eQjAp359iIc2Pfcn08GGQvW0qkoeVxo5QGVFRVN-P-RJU2aNQmtTdTH9zqw_mkJWBwmvk9CLtsamS_QN8sktHLGx_lSfNTMaeKcUkQYyN4QZ3hCyLeMheKlnS3m5iEU3tDg'} inc. access token
+root - INFO - access token successfully generated
+werkzeug - INFO - 127.0.0.1 - - [02/Nov/2022 15:46:44] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Nov/2022 15:47:06] "[33mGET /homr HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [02/Nov/2022 15:47:10] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Nov/2022 15:48:19] "[33mGET /adopt_form HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [02/Nov/2022 15:48:31] "GET / HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in '/Users/christelleatenstaedt/PycharmProjects/CFG/cfg-python/cfg-project-group1/app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 579-062-844
+werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 15:24:45] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 15:24:47] "GET /customer HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 15:24:48] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 15:24:49] "GET /adopt HTTP/1.1" 200 -
+root - INFO - User specified choices were Cat, size = Small, good with children = False, good with dogs = False, good with cats = False, house trained = True, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImJmZDM5YWEwYmJlNzBhMzJhZTc4MWU2ZjM3OGZjNjhhODgxZjE2MzgyOWE5MTQ5MWE5YTg1MGE2YWVjZDdkNDc5NTk5YjdmMzk4ZGZjMzc4IiwiaWF0IjoxNjY3NTc1NDk1LCJuYmYiOjE2Njc1NzU0OTUsImV4cCI6MTY2NzU3OTA5NSwic3ViIjoiIiwic2NvcGVzIjpbXX0.rxSvWNXSnkt5as4HCMjbZOpOQNXrGH0N5Q_5-BiMsQPAKBNzV2VyuOoQbETdWSDtZLJ0Ib5MvWcBn0pQJTF9QxChM7y16I8FfmSCmPwB2pxil9deONRvv3hmkbRqQ9GaBWB_SEDuGZi230rHy52TuWrJjcalFlzWW0eBDopK7MJvqxp2NgAPdKx7rS_z3oJxtHPv_2kpIOUCDlINPO2pTL1IluEzYcInZpF_BjZBss-5lXsViY5sdK5kcuMWcyqy9rXS2HJCyQJKTViXe_5PFiU555VaZOZNdI2eDWqHWx3LdCr8h1yzifiDd8-oLdVauSBxQcz39Hsm4QWyVBZPVA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 15:24:56] "POST /adopt HTTP/1.1" 200 -
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 133-107-132
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 133-107-132
+werkzeug - INFO -  * Detected change in '/Users/christelleatenstaedt/PycharmProjects/CFG/cfg-python/cfg-project-group1/forms.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 210-787-968
+root - INFO - User specified choices were Dog, size = Medium, good with children = False, good with dogs = False, good with cats = True, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjRkMzc1OTRkYmEzY2VjNmI0OGZiYmJiNjZjY2I4NGFhNjRkZjMxYjA5YTQ2YzI1ZGUzZTFhM2FlYTk3MDMxNmZjNmRjNTk2NjQ1YWVlYTg4IiwiaWF0IjoxNjY3NjY0NjA2LCJuYmYiOjE2Njc2NjQ2MDYsImV4cCI6MTY2NzY2ODIwNiwic3ViIjoiIiwic2NvcGVzIjpbXX0.Zvxn91YfO6fHHp3AxVk-G3pNtuKWpOOoUnhVnX9yQ6Oj4cioqt7kATPja0G2RNV2B44aC9j6ZHk8fSY5ZzlcKIffA62yk8a_FpGV6yxtv8UE-HaJDDcORy3244RAzQbSVVpjyKi-8z8iWy82US_Qr8rHp7ZhglQkJIJxgqyHRJuE4fd2K2SKL2ytzQx0gHOoVvfd3T_ExtbvmYJV4GJInFsaUMBGE83xDRmvK9Vti1i5WlHPjVX9OrA7-7jPlnilgr4j1JxnP24ceAkW7klBeZFprNUMCSnQNvcidZue_oloJxw-F-0bY0f2ATAJOvwfGN5RZBZ40uMwkg41DFnCLA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:10:11] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:10:11] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:10:11] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:10:11] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:10:14] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:10:32] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:10:32] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:10:32] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:10:32] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:11:10] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = False, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjBjODU3YmIxZWQxYmIyZGVhYTkwMWE2MTcyZGY1YjIyODg0ODQ4MDMwNDE1YzMxYTg4YTNkNmZmNmQ0MzIzODkzNzdmY2FkNGMxMWNmODkyIiwiaWF0IjoxNjY3NjY0Njk0LCJuYmYiOjE2Njc2NjQ2OTQsImV4cCI6MTY2NzY2ODI5NCwic3ViIjoiIiwic2NvcGVzIjpbXX0.tFromgE5QolwDWJfUgK1lsXFUGXSCzJfKakb2F8PA83YlK5v-9mfiwJK2ymOIOnowZzmVGQEKlycXoiGFdybEcoqAlOXbN_czVS8vs33MQ2ebuz-c9pxIFGa6qZM_syvSAP2EFg7vLEV8bH7a08eVYYBmbK5WTRphR0YRbR4dBxzxKAAKoaHzJcjqmzS_t915hEfjVm-bJm-prL_1E4I5-ecTXFHNejQ_lsIs58k9NMoI7pZWfH5vhc9O4azUxqNnIDa-9v6ekgGtN7mEIKWsLaI1qPWsrFxeCvItFoQMS9AVjhzFTcY0T636z0HxirvrXmUKz5-MUFrqNJCEs2DKw'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:11:36] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:11:36] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:11:37] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:11:37] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:16:32] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:16:32] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:16:32] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:16:32] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:16:36] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:18:33] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:16] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:16] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:16] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:16] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:16] "[36mGET /static/images/animals2.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:27] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:27] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:27] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:27] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = True, good with dogs = False, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjlmYzgzOWU4MmI5ZWZlNWQzYWFlMGNkMmY4YzUyNzZhNTEwOGNhNmE1YTcwMTQwOTU0ZTYyNjgyMTdiMmUwNmVkZGExZDEzODM2M2U2NTFiIiwiaWF0IjoxNjY3NjY2NDM0LCJuYmYiOjE2Njc2NjY0MzQsImV4cCI6MTY2NzY3MDAzNCwic3ViIjoiIiwic2NvcGVzIjpbXX0.s8JQVDh5hRhLlU5X5YdmvayMSXGXgK-h1HMFmjL96s-dzKJ2pDPQiyKcPu4v8H3YtFt6tUwjthEuFh4ZuT5-6xsYs_QJH7OagYUZji0gHQMCfJw9beMHSgasixx5Bq7M_bjTsQdnH2exBZdIfHgk5Y5XIh9ImZOhTZCEDCOevXjhr5ghK6wNeUaeHmCMexo24_HCJzavqCk7I1k83IHuJ8EL8uPjmvfBraLaWD_qOReHYxaUdYVZwcpOGGv7mhWYREOAG8nqCfQOXIbW64Kfr1t9cJYEIJso2_EAOtDS7gPBM_qE1SirX8pM4OsYxIzg_ZThknUbh-dS6MXaQy4vZA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:44] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:44] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:44] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:40:44] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 210-787-968
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:47:45] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:47:47] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:47:47] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:47:47] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = False, good with dogs = False, good with cats = True, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjM0NzI0NWU0YWY3N2U3ZmMwZTg2ZDc0MWU4Mjc4N2MzZDM4Yjg1OGNiMjhjNjMzM2MxZWE1MjdkMjg1MGQ0NWQwNTlhMmViY2Q1NWFhZGZkIiwiaWF0IjoxNjY3NjY2ODcyLCJuYmYiOjE2Njc2NjY4NzIsImV4cCI6MTY2NzY3MDQ3Miwic3ViIjoiIiwic2NvcGVzIjpbXX0.OH42WxOzPmHl7hkSqSxlguvf2aPVsHgB90_B8W63Yy79-6ILYu2AE-9aDOrE_Izo9420PiGG_gjUeVs-dkzmwj8jwS5vqH3iNEudARUdBnDW5gfP7zsWMTAbRi2Bv6tU0UBd2CCstGn4_m7yxT5wVFiSpHRrd445Ntj_6YiP6CNrQ92qPvr4rZOBQIfFYyAHq4JtKyJXMSfhnaCTJIHLH8_GiEUo2SHraT9gQN5ZZQmmv43nqe3y58So3tODF770khzV1oL_C5vU3MLWb9bPU6IIn05-7WBsIca_yjxZBjVkUW7a7dJqWKZPLtgiEc3MFFxxtweuX2INt_8Cgz4m_Q'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:48:16] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:48:16] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:48:16] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:48:16] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:53:43] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:53:43] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:53:43] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:53:43] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = True, good with dogs = False, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImFlZmIyMjA2OWM1OGJkZjgwZDU1OTBmMmViOTUxMThmZjZkN2I5OWUxZGMwNjk0MWNjNWM5NzNmYzIzNTlmNTVlZTkzMDRhMjcyZjYwYjNkIiwiaWF0IjoxNjY3NjY3MjI2LCJuYmYiOjE2Njc2NjcyMjYsImV4cCI6MTY2NzY3MDgyNiwic3ViIjoiIiwic2NvcGVzIjpbXX0.GTDCC0dRgHYZ1aazUS0MSNBpbjM_5HAaoup5GFbJNaiunZHxE3UsPw78a7TKT_vgMzz8VSXBt9fPm03Y_gzSg2CoRcdRAw0tdE1wsqWiCcLe3Vabu1Z0L9LzDkBrCoQjRvnJDPQMMeFH6FBTaNIMyhfjjrQBkBCYYcnkMmD4XACC3I8FmNG8nSAS78PJpfv9PrpMZAvrDs7OVP2qJJ1bRx7EJbwkMkQ-ZsKulbiMF5iLMEeIXa6rCBbjCzeJVgG6tIy1DTD_2Z4iky8KP2fyGXhav5948-spgzBw_4oGuKQFDVe6Jc-wnRfWvM2MrBGez0xSjWoYhxPL9cHgkMwqUg'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:53:59] "[35m[1mPOST /adopt HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:53:59] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:53:59] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:53:59] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:54:00] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = True, good with dogs = False, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImZkMjBmY2VjMWY2YjQ2ZjkxODM4NjA2YmNjZmM4OTY4OWY4YTA3ODE3ZmQwZGE1OGMyOTNlYWIzNjMwZmU2Mzg3M2JjNTQ5NmE5Y2QxZWQ0IiwiaWF0IjoxNjY3NjY3MjkxLCJuYmYiOjE2Njc2NjcyOTEsImV4cCI6MTY2NzY3MDg5MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.O7ljbraQkCZdeu2RpnLNy5SERtS1_B0wHaPkddKVRRgcqPgM0r8NpWb_Bs_QLAdm3wUslVtyIcor4nvPj6Pk-OfLhosjZ8ken-N9AaOUT_ONwitsZaS2gUovyHqzs_5LY7D_QtWckl07PF2tRK8u4tIT48dB2N-aH4DiBq9L-udJbaZZ76sd8V6hipQ4DH7-bv-wGD4jjEvSP8C72tYMw3CXMDAmwfrQCz1LJ34kIC1JHhQ4YzY9UJbzM3GIBnUI2BnHLGeIf4PEkbKrTQ91Ukvy27pD9b3sppQvCkjj715uTQIHbD1GEs8EZn6E0bZCKJLQK_-WYIKru2Dzba0eBA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:55:01] "[35m[1mPOST /adopt HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:55:01] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:55:01] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:55:02] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:55:02] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = True, good with dogs = False, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjEzNjY1NDljNjU2ZTU5YjRjZTk4ZDMzNTk1ZmI1ZjVmOTVlZThiMDdkNDMwOWQxNTZlN2RlMzk1ZmJlNGE2MTFhMjAwOTA5ODNkOWNjMGFlIiwiaWF0IjoxNjY3NjY3NDg5LCJuYmYiOjE2Njc2Njc0ODksImV4cCI6MTY2NzY3MTA4OSwic3ViIjoiIiwic2NvcGVzIjpbXX0.SD2B3jl0qsPVW_u7RgTA3X8a5Nzl7P_49cS8dG9XNfWhwMtx_wLVBB_oZaMDaBQojlvV-I6DUejXnhgESvYCliY0sdTqDOyYFfW3An-jkS_fzhakT-R9v2tRLgUxtCYb-sXBOXJTLIDHw9if9PEKiGMurnyDfgzFGqER7enfWEfib255dlR86Pis4GVPTaQdbJgIf-NZgQaE1y8G1T0wuQSx7d6-JcBwLclGN9QZKbuWNnpWGy7Z7v6xGXpehYtbSYLFev9DePtSH4_tsusAsTV5Iao7aOzJcqupzvYtggOHdqJnqPWcS2OloPOXvVpSlVI4nXBBbzD2sJsMGwPSkA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:58:19] "[35m[1mPOST /adopt HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:58:20] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:58:20] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:58:20] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 16:58:20] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = True, good with dogs = False, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjNlMTA2OTc1MmRlMTkxZWE0NGJlZDRjYWE0YTk5NWNkNDZiYjljZDNjNzI2Y2U1Njk5MzQzODg5ZGE1NTRmMmFhOGNmYjhhMDU0NGMzZmYyIiwiaWF0IjoxNjY3NjY4MjQ3LCJuYmYiOjE2Njc2NjgyNDcsImV4cCI6MTY2NzY3MTg0Nywic3ViIjoiIiwic2NvcGVzIjpbXX0.aF7P3tbuhDvLiGjbtWbOMWkYKN5cMDV0zGd8KiHEXPHNNKJmUGAY1Fbbu-VWObQXlhujmhPV9rE8jHabA9Z12ouU0cpGgEOdGxTK2mNcXfZoGZb_lEFp99YUUDu1kO6F5t_dvo4IboxO_CUBzpjI2zPPph3VjnG-xDizB6wHNt8ET_efIaeYFWDIQIn5Zm1S7Iz8gTFPrKySJS1_nBK7XJ0hh9iO0Q_PEDCvWjUddMY-ldTIGYVcCezNO5tpZuTeTCJzJMZIlTLknYhmwAfWyZyriNCMjAYNyxE-B-0zIsiLb1S66JATosHpxjwThdoYLPSYrQfYzCaOIv_FFeHHlQ'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:10:58] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:10:58] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:10:58] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:10:59] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:10:59] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:15:19] "GET /adopt HTTP/1.1" 200 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = True, good with dogs = False, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjIwMWU1YTQ4MWMzODUwZjhjZjRkMDYxNGIxOWQ4ZDA4YWUyMzExZGM2NTJkNzdjOWE5NDRkNjYxNDkzMGI1OWUzMGQwYjk2ODg2Y2NlZTRkIiwiaWF0IjoxNjY3NjY4NTQ1LCJuYmYiOjE2Njc2Njg1NDUsImV4cCI6MTY2NzY3MjE0NSwic3ViIjoiIiwic2NvcGVzIjpbXX0.kgUu9eQ9iMLmaPbgzzAfmCuXrMBiLVa03nTRCtxCkt4cP_ez8x5YnGzzgcylV2sA-HGU6nAeaS3lGm0NbZGTOSr9n3UFI-Y8amc8sh18A1mKbS2b1-lcKQH8L26K4DCCD6w9k9fzpgSMW2uoB-eWhe5yaTyvnHTaxWTaHYmkHZEmeJJmr5XoYCI-dkQLzI1wYXfEGB2NU4V9lRD1Y1fI5laJvC3TCM0gKmDHJc_jrhuW3mFOGgOj7lYeuKAXWH_QdlU3qsQLP20npj-ikkFc71m9jqev3v63OalmIZSg0FS5-PGsIYOff7ypC7B-fhIk0MTm3dPX1WF8hC8YHhglnA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:15:59] "[35m[1mPOST /adopt HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:15:59] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:15:59] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:15:59] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:15:59] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = True, good with dogs = False, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjAxODlkODlmNTc4Y2UzNTljNWY2MmQ4YmVjNjQzYTcxZmM5ZmZiZDcyYmVjMWFjM2RmYjQzMjA2NTU1NTY0YzIyZGJiZDcyYzJlOGRlY2YwIiwiaWF0IjoxNjY3NjY4NjQ3LCJuYmYiOjE2Njc2Njg2NDcsImV4cCI6MTY2NzY3MjI0Nywic3ViIjoiIiwic2NvcGVzIjpbXX0.G65e07j7M0Aa-kDO0YiSS1TXoKyQmvyeS2gk75NFQSzg_RBuQZiylWUUNH6UHXgBML9LRXXkqMhndn2ZSofralScOcoa0ijue0Dt2pjTcaQ3FLpvJ01HxO_ViFft3c6l0UEeenSsLzxXdHWvKVFN68ZurPmgwelyBuAHGSjsA-21pDEcgIG2ruGwDPhe5yCe2uaghOtdSvYgL-ydo8dWy4a8j1g44liBC5cwUbwRFdXDbX4XMogK5Jjsvc5VRdX3lXDw_0TY0cgGMCfUsBrl5gxqPUZDZdXlsHuPwCeNBvVHjaVMxr6mtvOpjwTLiDVY9kbX5x0CbO4_XN8rkc2c2g'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:17:37] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:17:37] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:17:37] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:17:37] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:17:37] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:19:22] "GET /adopt HTTP/1.1" 200 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = True, good with dogs = False, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6Ijg4NmY0Mzg5ZWM1N2M1YzQzODk3MTU0MDYxYWE5ODY4OWM5ZDQ4MGMxNWMwZmM3ZmUwYTdiZTk2YmMyMjJkNDkyMWQ4MmRjM2MxZDA5OTVkIiwiaWF0IjoxNjY3NjY4Nzc1LCJuYmYiOjE2Njc2Njg3NzUsImV4cCI6MTY2NzY3MjM3NSwic3ViIjoiIiwic2NvcGVzIjpbXX0.GDrQHaWdrzAepS6h0y24Ao-OBsIN97Jvtp_xzd-Yp5B0hJh_L7dxwNm13Q7SRQVuUzzK8jpV6Ja07fHLeervuuo-B1rBJ53Vhol6q3rlwZavOSSa_Z2hfpokL_81TZdYHe9o9rDN0OP_IYYjERuVZmrdJY9VPPuFTyXDfNOwWyIXao1vlkVSw7zOOamN3EaKS_AnYPD8oUBYhZ1NMqNeneQWuBfn_cagZNhQj2BLD_y_LCWW7N49YQDEzIMi6CmVuSzYRghDisyi9UW_HfV7HdQTnTBDy5VEDnItzCGlv0MkRJWwxz_Ll3KjfKfbXMEyo-AO1sgHK47_fNC2kLDowA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:19:44] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:19:44] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:19:44] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:19:44] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:19:44] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:23] "GET /about_us HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:23] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:23] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:23] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:47] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:47] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:47] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:47] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:47] "[36mGET /static/images/animals2.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:57] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:57] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:57] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:21:57] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:26:27] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:32:35] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:32:35] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:32:36] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:32:36] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:32:36] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:35:20] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:35:21] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:35:21] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:35:21] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:35:22] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:36:46] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:36:46] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:36:47] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:36:47] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:36:47] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:39:52] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:39:52] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:39:53] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:39:53] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:39:54] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:40:16] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:40:16] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:40:16] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:40:16] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:40:17] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:42:28] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:42:28] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:42:28] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:42:28] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:42:29] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:43:39] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:43:40] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:43:40] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:43:40] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:43:41] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:44:49] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:44:49] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:44:49] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:44:49] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:44:50] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:47:02] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:47:03] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:47:03] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:47:03] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:47:04] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = False, good with dogs = False, good with cats = True, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImE4MTY5NDYzZDZhMTI1MGQ1YjQ4YmQyNWFhZDNmMGU0ZGNkZmE1ZTkyNGU4YTQyYmVjODdiMzMzZGIwYmY3YTMyY2MxZmNhZTNhYWZlODhmIiwiaWF0IjoxNjY3NjcwNjAxLCJuYmYiOjE2Njc2NzA2MDEsImV4cCI6MTY2NzY3NDIwMSwic3ViIjoiIiwic2NvcGVzIjpbXX0.tIyez2tFqSUvZFuwXp73USCu1Q6BctGEYLKGw1eAiDaPZsENQUgqAcs6DbFqJSDX3MhZX--020izl5JRH1SvSgTfkQu4yPlaRA-PRtr-vXeBcDTCJcJlo4J5GB1eT7-aJ3qrKAGdBMmq7xxlIJc--2a_J68uuQgAHMEjsBzzaQd6xISeyfLvlh6kK_QcT-7aTyFYlH83G04p-zt_6O_a9R9pGjYOzUdrGIBp3RTyGJXoeAn33XrBb6W4XfUS71TVNhwhMSMityCZka1EW8pSa6UmWPkNwbwxRDXh0kCvRuAdrowFNW6rt-fnpZ_CUPLsZtPHDsQuyajECDmkNi6m0w'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:50:45] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:50:46] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:50:46] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:50:46] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:50:46] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:52:48] "GET /customer HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:52:49] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:52:49] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:52:49] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:54:24] "GET /about_us HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:54:24] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:54:25] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:54:25] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:55:21] "GET /about_us HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:55:21] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:55:21] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:55:21] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:55:21] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:55:31] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:57:13] "GET /about_us HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:57:13] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:57:13] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:57:13] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:57:14] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 210-787-968
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:57:44] "GET /about_us HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:57:45] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:57:45] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:57:45] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:57:45] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:59:26] "GET /about_us HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:59:26] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:59:26] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:59:26] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 17:59:27] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:01:47] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:01:47] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:01:47] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:01:47] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Small, good with children = False, good with dogs = True, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImQwZjg5Mjk1ODgxYWE3NWE1MjBhMzM4NzhkMDBhYjBlYjkzYTY0ZGZhNWE4ZDdkZGJhOTA3NWNlMjcwMzc5ZTEyZTlmNTkzNGZiODIxNTFlIiwiaWF0IjoxNjY3NjcxMzE1LCJuYmYiOjE2Njc2NzEzMTUsImV4cCI6MTY2NzY3NDkxNSwic3ViIjoiIiwic2NvcGVzIjpbXX0.OGtNfwJyi4R0-Q_8LIeSW-IVjImOPfASyvy1L_PTgegZ0NW8Tvu-jcHJmZBclt0gyot7E6T0yZC41BGbZPEIiivTZF80PCKKrnFAE4nf0SqeQkduBpTdOdwJYWatBdKRCOvhTcuwrcHxZuUj6ZIW8zGGBAdD2ey_xqgCec-l0K1cxfR2MEKog8qHYVOSbFBOoTPJy7jgsHlJ6zdvk5BXuUerHJDIjutadzToIpce1iwcfrb2m0fF_RfGCP7oYuvCx__cYqx-X9jz2NqPHujdoqiK9FHebX72FGssubHO6VqAyBZxnH2mveCrLlac9tj6LDNZPwy6j_DaV5LJ6OKcFg'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:01:58] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:01:58] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:01:58] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:01:58] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:01:58] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:03:20] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:03:20] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:03:21] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:03:21] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:03:21] "[36mGET /static/images/animals2.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:03:26] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:03:48] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:03:48] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:03:48] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:03:48] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:04:32] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:04:33] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:04:33] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:04:33] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:04:34] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:05:39] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:05:39] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:05:40] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:05:40] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:05:41] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:06:21] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:06:21] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:06:21] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:06:21] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:06:21] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 18:06:31] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 579-062-844
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 19:25:43] "GET /about_us HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 19:25:43] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 19:25:43] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 19:25:43] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [05/Nov/2022 19:25:44] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_app.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 571-270-878
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/forms.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:39] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:40] "[36mGET /static/images/animals2.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:40] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:40] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:40] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:44] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:44] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:44] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:44] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Dog, size = Medium, good with children = False, good with dogs = True, good with cats = False, house trained = True, special needs = True
+root - INFO - Response code <Response [401]>
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:54] "[35m[1mPOST /adopt HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:55] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:55] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:35:55] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:47:08] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:47:09] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:47:09] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:47:09] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Dog, size = Medium, good with children = False, good with dogs = True, good with cats = False, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjFiNGYzMmVmMzcxYTk2MWU3ZjBmZjJhZWI1NGEyZDQwMjM2NWUyOWJjNjU0YWY0MjRhYWUzODVmNjVjNDM0OGJmMWUxMDMxMTNkOWJiZDVkIiwiaWF0IjoxNjY3NzE3MjQwLCJuYmYiOjE2Njc3MTcyNDAsImV4cCI6MTY2NzcyMDg0MCwic3ViIjoiIiwic2NvcGVzIjpbXX0.YNdqasijr9qkys4Cr_Fy6jgHf0hOWTXpzx4-x1AHBr3v7qbiQlFq12dz9MLcbtcRHat5nHcmaBuVWDVP5MDU0upkD-sDcLQrAP9I_Bgj8PkoDNQWWhGMn0NjuRzERhP-CDOMbbLG2G_njdp0f3iSqjl80Jr9zOYaoBce8jgKXryLHnus1iyttwN35tnci2cf5WuhLQ7QPWPihcrEcWmz-G647nQXFUodSdOy_Y95QtAfmIoENxgC6HEn_TCBKcDF2GxXiXCvgnrD9tUEnsMEOUEvmPTJd6LZAXjT-svhmD8yrpOESy74lC4MJ3zwWRR-bTmtbpN5OIpuUChnoY1FuQ'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:47:22] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:47:22] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:47:22] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:47:22] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:47:22] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:48:14] "GET /customer?pet_id=58080567 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:48:14] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:48:14] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:48:14] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImI0NDE4MzJkOTg3MGQ2ODNiMThmMDE1YjY4ZTFlN2Y0MmFhZDQwYzVjNWE2NDZiM2E3ZTkwZWYwYTFjZmVhZjg4NzI0NjQxNmVmZDE1YWYxIiwiaWF0IjoxNjY3NzE3NDM5LCJuYmYiOjE2Njc3MTc0MzksImV4cCI6MTY2NzcyMTAzOSwic3ViIjoiIiwic2NvcGVzIjpbXX0.wZC8yJU8MyVTzayMMfzm8cO3OYUzddkXkXXv71eIb_o2vilxuFoaq3nYJPbX7apMGAQ5uwNr5LUQQJBLmROkRe7T5JX_XpkVS9aMS0ZDuxuhE6xS5lwEYHNocp2EY5nc54b0Gd2xzC5TrT6fF5Tkp8-Uz-Ct51aoSK2R3nbj7MHSM-cjcIwCFpWjLT0yTQteRS4U9O4Gps3PHr3J9i9PH-dS9a4vGPmKlgIloC_-mxC0ETHFD99hUeiNaqVU-fFh9Axd5swlte7bXobtW0qhqdAciibeqjPlX39Drhdt_-1hnkFaB5FewicVf1rxRoQENwvK8-373jPYj1qrTStXBw'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImY0MmI5MmZlMzllM2VhN2NjZWM4Nzg2ZDIxMzQ5ZWIxMWU5MmZhYmMxNGYwNDc2NDgxNGE0ZTBmNzc2YzczMmY0MDQzN2U4ZmVkMTU1MWFiIiwiaWF0IjoxNjY3NzE3NDQwLCJuYmYiOjE2Njc3MTc0NDAsImV4cCI6MTY2NzcyMTA0MCwic3ViIjoiIiwic2NvcGVzIjpbXX0.cTG07ldFeO0tuHTleIvmSBiCmtuJcMNgX9ZDsexM1Tlcc9SUxrNjnAV4No-wou26kUu6xl4f7fxfJBjFbzlaebelxxjT61HIpn6U11U_kkjZxGlrLVihWn53oJhdzvU2JFKoniD2PxdWZ0TLNVOCsgI-hQmAelw5DpbFNhl0_QZkdNy8O5XfIBLklvmkEFNEnFf4luch2v02_VHVMnVORuzRQpywKuwWHTuyZ45p5EG4kCo9Vw8IdqCxkZenlBR7JiDr4fNo5N8-2uGe0H1UOf2dxFZdXcpw6uf8Rm8h5lSVE2RLiImK5jIOIn7MR4sg3PVx2FpgflMiNw29y_n7cw'} inc. access token
+root - INFO - access token successfully generated
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:50:41] "POST /customer?pet_id=58080567 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:50:41] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:50:41] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:50:41] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:59:07] "GET /customer HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:59:09] "[33mGET /customer_list HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:59:59] "[35m[1mPOST /customer?pet_id=58080567 HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:59:59] "GET /customer?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:59:59] "GET /customer?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 06:59:59] "GET /customer?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:00] "[36mGET /customer?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:15] "GET /adopt HTTP/1.1" 200 -
+root - INFO - User specified choices were Dog, size = Medium, good with children = False, good with dogs = True, good with cats = False, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImY0YmY2MDc1YmQ3ZGQ2YzAwNTI5ZDhhMWM5NDgyM2JhYzk4NWFkZjU1YzZkNTNkNjVjMjRiMGEzMDAzNTAyYTlhZjU5ZjYzZDAxNzE3YjljIiwiaWF0IjoxNjY3NzE4MDE3LCJuYmYiOjE2Njc3MTgwMTcsImV4cCI6MTY2NzcyMTYxNywic3ViIjoiIiwic2NvcGVzIjpbXX0.jl1AWOng_NtqqTlbBKTo2fXfw9o1-kwEWz_522cahEcVNOmXsWMg9pXsK2yYBOrvxvwbUtN3Q3axzd2ngDHEoWi6swbAsSaiDmLIDAlfIrvh6Tahn8XefBahC5UBxD5s6usOuNngHAs39mrM48CB8F9nW1iLyOKmVo6Rl0T-S2WUldmm_cl73npu47tj13a4OizoEzTn1KGaSYwSQAWdL-2I1aqoJSWoSVzO3yjXmaQNeBzqs1EF62-2hm9ewj06f7IqeRYJ1L5HZm6tcVceWkzftaAhYUpPFhByg8i5325rmgfBcKx5XI9ju5B_HMLxfpmoLdW6EBDTncFk_Qgahg'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:29] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:29] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:29] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:29] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:29] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:41] "GET /customer?pet_id=58604205 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:41] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:41] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:00:41] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImM1M2VhZjBiMGZjODIzMzUxNjAzNmFlMDQzMDMzMjFmMGFlMjQ3OTU3NzYxOTA0OWEwNzZlNDQ4NzgxNGYyZDgzMzRjZjE0Mzk2OGViZmY5IiwiaWF0IjoxNjY3NzE4MDU5LCJuYmYiOjE2Njc3MTgwNTksImV4cCI6MTY2NzcyMTY1OSwic3ViIjoiIiwic2NvcGVzIjpbXX0.w82z_OX1WZwjyHdQhZpDhqWCpV1HnTxZ2a8taQMudPA8HpsVIL6ekanXqNWrqAPJF6GdxGtBa_0ic8YjDjQ34hQHbC-nygM09yFE9Xb83bGtpclqClHGV6kvFl7et6rSFzzEmYLuF_U-Jt20_Ep4Wrw4prbEC7pOK40WLdfHLLhGEGFJ-CWjrLh4ZJKhJgrwIqgfeT3h-qjl5Y6_LW2pyR0DoijMHi0b2KYXgz2YwxSYgD38OsuiK1yRTN2iezrwrLL1zt8VnlmVfHl-dx67UaKZmqW0hy1K2Ne2FTazQKamOrhvLLnpH4QAMLSHJLYPiDpYcyfmSjxWt10vAOPa_g'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImJlYzQ3ODg4ZGUwZWJkMjZhMWJkOGFjOTBhOWZhZDRiNDQyZmQ3MWQ4MzZkMDgyNDc0NTJkYWJkZGIzOTFjNDQxN2QyZDIyZjljNThiNGRkIiwiaWF0IjoxNjY3NzE4MDU5LCJuYmYiOjE2Njc3MTgwNTksImV4cCI6MTY2NzcyMTY1OSwic3ViIjoiIiwic2NvcGVzIjpbXX0.y8N7IpAEkmL4TR1KTPeT0VD_TZeR9ZMVQmiota21mga6Bt7HZBDAjAInLmbwltVHMhCNMjHs4YF3clHkaZN0lgUVOi7aIU3VFGtillCmShqVPtukIgb9Qr_k1hQw27BXWZ7_dYMtSASx1NT13FqVqp9u8YvyFVqVV-jxE0ZpwzOemtW5z02Q4BtTV7ctfsn9tfnK3fcXm2lK3PLLCkok4VlQAE6s3hqu32C2uSKT7t0F4W0BVojrVMRi48rapOgus9FdqHDwaM6VyAX9BjgTu0Slm73MwizrzsQ0-HwhqbPpnW-hkIabcpN1CKRH5DEuKR3xRzw5KukrpjRiT3xCjQ'} inc. access token
+root - INFO - access token successfully generated
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:01:00] "POST /customer?pet_id=58604205 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:01:01] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:01:01] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:01:01] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:04] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:04] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:04] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:04] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:04] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:04] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:04] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Dog, size = Medium, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjZjODA1ZTg4ZDk3YTdlZjhiMmM1ZjU5MTJlOTQ2ODNkZGJmNzZiNzg4ODQ4OGYxZmE2Y2E0NjlkMzcyZTU0Yzg1NTViNzk2Mzc2ZGRmODYyIiwiaWF0IjoxNjY3NzE4MTM0LCJuYmYiOjE2Njc3MTgxMzQsImV4cCI6MTY2NzcyMTczNCwic3ViIjoiIiwic2NvcGVzIjpbXX0.Ggg6A-Se13ML8MZOX2kxAyHAVDBg3S6ySDiwuQlBv5d0iU_xXfX_h8VFJtO0n4jybYGqa51qFiCWxL6R6T_q6kZC-FcQqFJc1P6xE97pNdsHR38ftXaeNzETzwl3dwwCQav2CCXqZDcLHUfJ-1GUez0K1eacj7YOKMVZTmqyUZvd9jAECPZUB7QqBLDcRljn5ONpGExDcFm6g8c_1MriN5RWi3DU5L1HK_IxMGPujKlkIOnIllHoO7q1HhnSRLgg5CW89klwQNoTZ2aXq_BnZ36kTlZoOy0aNYGrv8RgLi6ITFxALo3OVfArmZlSv4sFEY39qTSwyQ7KoAaRs4sMuQ'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:16] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:16] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:16] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:16] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:16] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:21] "GET /customer?pet_id=58752826 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:21] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:21] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:21] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImU0MWM4MDNjYjgyMzA2ZTczZTg4YzRmNzNiZTU5NzFlMGNiYTE5OGRmMzFiZWZmMzBhOTcwYzI0OTYzNTM4OWIwOTU5MmNlOWE2Y2M4ODM2IiwiaWF0IjoxNjY3NzE4MTU2LCJuYmYiOjE2Njc3MTgxNTYsImV4cCI6MTY2NzcyMTc1Niwic3ViIjoiIiwic2NvcGVzIjpbXX0.zVtFBTXsbasOZFsvv6Uip13geiDtvEG4p18XopHkejevKpHBEnNKiPcpasXYsHF3wbwSTGr8ixdWg1IiyuAWly_BBpL0mrfQ9BnpubZariC_z49ovIBHqdh-GSzx3CJeC8qKldyt2Yl5szxc2QFXmgy5BHvw9gItcY1Vl-7CshCmygE0uRreFADln43tdzaWOepHlMa_I5oASpDT6gkqQXZJgQX3-s8NncbwCnTgTI8_xF9PNod3uO5W0m8NiiYMnLFPoruN9ypC_etqSsup685hPyvw7p-GPiqIbZWwESmoUOHb9NM0mjdJAiPi8seEd23R7yLcAw7uaqnPfa0_Hg'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImViOWNhNDhkOTQwMDM2NjRjYmM0YTBhYWI1NmU0MmFmNDRkMGUxM2Q4NDkxYWMyNDFhMmIxZTFjNjYzNzBjMjExNGQ1YjRlN2M3YTljMjY1IiwiaWF0IjoxNjY3NzE4MTU2LCJuYmYiOjE2Njc3MTgxNTYsImV4cCI6MTY2NzcyMTc1Niwic3ViIjoiIiwic2NvcGVzIjpbXX0.c88vyVByF5OX_O_lVS_c-jHK3WIcvtS7iL8wfRER87cKHEOvlO0qYwZSKyjmO6OmpDQuNiSZf27zt8n9u4ZChYLiMJi25ufSC6HpVCg1jF8WgnqgQYyc5gK2euvOs0YaTQcD384QugvSR89ayq_VsC_EyZFqkK_aIe7oesrpXs-72_-jvqNpM5bKsFtoJt4vpwLR3m74Z7iCFSs7aFSspCUK3hFnl8fFchNUaZCQJkdG3nKdemBrR1CU1-6bjpfe7T9J_sFGyLnggBReK2CisHua8uUYFRhAXEkbS-QBSfHjTTzhkFJ4De1CSAdi-Cp3rO9-FM68EMiZrBj7HMV2tw'} inc. access token
+root - INFO - access token successfully generated
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:37] "POST /customer?pet_id=58752826 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:37] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:37] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 07:02:37] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:30] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:30] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:30] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:30] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:31] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:31] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:31] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Dog, size = Medium, good with children = False, good with dogs = True, good with cats = False, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjY2ZDljMDNhY2I3ZjQxMjNhMGJhN2IxNGI2ZGViYzA3OGI5MTVlNzRhN2M0NjBhMWMzODFkZjk5NDIyYWI3N2VkNjc2YzEwMTJkMjE3MDJmIiwiaWF0IjoxNjY3NzI5NjgxLCJuYmYiOjE2Njc3Mjk2ODEsImV4cCI6MTY2NzczMzI4MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.eFkxbDLBQZp5X0fGWFtDPxO9Q42Sy8oCPGnuAPAE67LBd37zX59uPuNr65VAS2TtAY2enXqoyBfyRoFZzmslAm4PvbNsU_Frx0DN1uh40sQQYb8i6ed2sJ91i_zP9PA9Sa1tIVIgK6A3qkl9AqLB54U4O4eh1DkoiAYDAW63RN9yvPhhGT25zSDLB0u9UrrghTLW6GEDnPMn2hUo0RzFgaLCEz8iL_wVB_VKQun6N8wD1-B6n3QVqdXlhLC17GTcjqfGXEt7kOGSFskJ0lIzsBgvTRHhp3JaIxiYxPS-MJFy26hP2zM6W-DNFSpZiIySUN_1OvnpeflmTo0jkNh7Aw'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:44] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:44] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:44] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:44] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:44] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:48] "GET /customer?pet_id=58756582 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:48] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:48] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:14:48] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjQ3MzA5OTBkNjYxMDM1MzBhZTNmMjBlNTMzNmY1ZmE5ZDRiOTFkZTBmZTkwNjUwYjI4NWZhMDBmMDUzZmQ0MDlhNmY5NDFmYTk1M2E4NTI1IiwiaWF0IjoxNjY3NzI5NzAyLCJuYmYiOjE2Njc3Mjk3MDIsImV4cCI6MTY2NzczMzMwMiwic3ViIjoiIiwic2NvcGVzIjpbXX0.cPQ_qLkHPaCHFwZ5DL_GoTdlKXMSEI6yk4PDRZq9rx2Zc1TqbbVBQAKbRLQ1gW6JNXqnufd_2UqRcKHIINchvzFhU0Jb5d29M3p7SnWU_2Z8yT6Gk8Pj9ENgQ_byd9KCj0_DQcTdvmEeZit-OODhqANolYso10ax2ARYHRnP7FZxj1rkIFIIM3aEZCLLRlfqhAfCRW1WCI7iKUOxkopqNDloIB4mwH1-puSD4MdW2mTcBvi3VEV1eG-BG6tun1mq2YdY9orxPWCUWnWg1ZBHrDkoAEhQmmX-9t6nBRS3fGOazMunv0360zkyrtup6fsTR-mjUJryb1htVse-zz48VA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjY3ZDIxNzhkMjk3NjEwNDIzNTg5YzNlNzNmMGE2M2MzNDk4Y2Y0NjJiMzdhOGVkMjU4MTJiYzI4MzdlYzkzMjk0MzFhMGYzMmRjNjAxM2U3IiwiaWF0IjoxNjY3NzI5NzAyLCJuYmYiOjE2Njc3Mjk3MDIsImV4cCI6MTY2NzczMzMwMiwic3ViIjoiIiwic2NvcGVzIjpbXX0.kPSCkyRurforQTrJdp4tjtE7rhRMIuNdeiPv38JHRcK6RHwXtLtQjaVAXT13c_zUmClkDAWrQi3xu3isWifB_r9pfCMt7reTuvdXhg7B3kuDejzBc2tYnpwbAScLD7Hwe7MtYpiRFIu5eKCuSTRNMeEHqqpvMEtJctewfOm3-Jr7FQwo9UEje30eno-_vUPFWNyCfVejxeyhCIPfAKAnkWUsnf6YZd3G40JnZDt2R8xGRjrfHhs0ATZdeXfWS7cSfIN_F08CFmLnBuGmXMXcqRtFKAXx5YFpcGtDk1miFcnr-iRbEKTfbckRIgNoXgLucKMY5X0wUh1mwDztq1wniw'} inc. access token
+root - INFO - access token successfully generated
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:15:03] "POST /customer?pet_id=58756582 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:15:03] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:15:03] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 10:15:03] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:12] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:13] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:14] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:14] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:14] "GET /static/images/animals2.jpeg HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:23] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:24] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:24] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:24] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjhjOWM1Y2ZhOTQ1YmI0YmMyMzUyNTdmNjk4MjI5MWZmMTY5M2NlNjE3MmZiN2NlYTY1ZjQxMDBjYjM1NTA4NmQ4ZDkyOTIzYmM4YWJkZDk3IiwiaWF0IjoxNjY3NzMzNzU2LCJuYmYiOjE2Njc3MzM3NTYsImV4cCI6MTY2NzczNzM1Niwic3ViIjoiIiwic2NvcGVzIjpbXX0.iMfZDRz46SpSa0HqplULvQ8J-XRUkTQsA2eICM8tzZuOij5WxUfxFWKV0dD92doMI_wPSkiGv38dA1grmUxPbXV40Ul2tOHQ6-aCTzsbFyi3bE-eSkZED45P1n2Jo1XKuPISe3HdZ95tFWBMyv7CmWrFDjh1_7_gWSGummZCIizFa1mUBmwzDiQ_5Y6_ItVv98m8U3ONtpRuwV2VRK8CbX9QBqNFjUHLXFCfDPxKm7gNbnti5mpqiZRkNnavdVx5j6jT8PlzECcLJPEjPpVE7ILIedxNQ_i01mMc_Fc7kIMUyr_4ZLtDBSswodgxFEma22CKDRfWPgngj2xg-uXCsA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:39] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:39] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:39] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:39] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:22:43] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:23:09] "GET /customer?pet_id=58741998 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:23:09] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:23:09] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:23:09] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjI3MjNmZTc3OTE2MWIwMTkwZjI2YzMxNWViODkyNWE3NzBlZjg2YWU5MDYwNjExNzZmNzJmZWMzOGJmNTcwOGE0NGIxZTRkNjUwYzE0NmEwIiwiaWF0IjoxNjY3NzMzODEzLCJuYmYiOjE2Njc3MzM4MTMsImV4cCI6MTY2NzczNzQxMywic3ViIjoiIiwic2NvcGVzIjpbXX0.m-4vU3R-4W6_YbJELcfzwqZK2TTjoFxVdsmzLl9t70-GRBQXuTc-fblFtEfGvfNLPXF2dINy_7xoH9cSmviS4DZmeCbV5DQ9aAgy5Eqj1Wlio0yQdQsOMLdMltBriBKSsxBZWChE64_0t5WbZSoJMpZtzPuEWapp9Ycqpen4BSrWcVcz3CfsOvPupsxm5J8JKM_Dttx-FuuUjR2xLmgLAs8CL_jA0mD3y3T0yMv7BGapefNIEoXRimksgWd3QbDqC_SAdyE3aNhHhUeSJ-3kwd7Aw-sOhpeehzhyEXhSzDWcinDICEfqwUlK0sHdoMY4ueBLeF1GPc02ZCxseM5qnw'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImJjN2YzZDQwNDFiZTQ1MWYyYjgxNDgyMDg2ZTdlYWQ0ZmFjZGQxODk5ZDFmMDU4MzExYzM5YTk4MTAxNmU2YWQ2OTUwYmE4ZDdhNmUwNGUyIiwiaWF0IjoxNjY3NzMzODE0LCJuYmYiOjE2Njc3MzM4MTQsImV4cCI6MTY2NzczNzQxNCwic3ViIjoiIiwic2NvcGVzIjpbXX0.Q_emsWVDP34vYxraOESgYA-UB0AaiV7bVpbG9a6Nj9g8RH-VVaaB0OZHwIKlaJsU6U9LoVtTz5LVOjlRyDrGpMt_kV8a9IjqSOms2j_NAS2uzUz-P_y6J-QueaqKZj_yHhTaC7V2JJOw7EhzxnmppACgHG8RDZjzIfywladaOvDJTDnU1wTCYriqwf8bxFSCw9EHxIhGPgLU0fwmBdbZWP_PiMCcZuvuGLngt1u0gpoSO6Bir_TCRbhFgDvt_HTUu2zhGV24JDuth68BjnibJNdcYu1f4GUFG7mxjBrUDPdU21tnoc19DHxx7O5ollUZPNqGZfrDZapn3tH7VAxMoQ'} inc. access token
+root - INFO - access token successfully generated
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:23:34] "POST /customer?pet_id=58741998 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:23:35] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:23:35] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:23:35] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/test_utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:58:02] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:58:02] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:58:02] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:58:03] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImRhNmJkZTlhZTM2MjE3MmZhYWI3Mjk4MDIxYWUyMmQ0MTI1YThhOTZmNmVkYzM1OTFlNTgzYTZkZTE5NWI3OTk4ZDc5ZjdhZmQwYjIxZDRiIiwiaWF0IjoxNjY3NzM1ODkxLCJuYmYiOjE2Njc3MzU4OTEsImV4cCI6MTY2NzczOTQ5MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.KdL7BRCyGzPcEItq_EF3Zgj0R2pz_33x1gL5sZ1__32lw8fz1TUWF0FG_TYjK0iSSko2_fqsnwbegT64g3psSrYlNyAM5MEUAWOYS01T-DW1TSc9nW6Hd-BLGOy1CIvdkNyRPEX6oh9bOnM5eAE9PL-VaNsOPDp9ivpNXCug58zKIjQw4YpAEBNvrKoSR95jkQ2L35jTsSnDtReJaN7EWz5SppIgYzxTljQUgzQiLC7GU4UTSaZg6RQ7YhvF34n6OdHgV5BOpPiorIYU9nSYXywVoRio99s3DNIfWrxwSlmk-coIszKSxM2ecqGxyGD1lgbh8nuMO0aU6J4372yieA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:59:40] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:59:41] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:59:42] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:59:42] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:59:42] "[36mGET /static/images/animals2.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:59:42] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:59:44] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:59:44] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:59:44] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 11:59:44] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = True, good with cats = True, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImE0ZDZhMDM1MGQzYzI3YjU1YTQ2NTYzN2MwYmYzNDc5MTQ2M2YyZmViN2U4ZmFmOTM4ZmExMzBiZTc2OTdkNzdiNDNhMDYwODhiMTNjOWYyIiwiaWF0IjoxNjY3NzM1OTkxLCJuYmYiOjE2Njc3MzU5OTEsImV4cCI6MTY2NzczOTU5MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.ZScloxnPU8tsit0VuE_slfpc4nBYJSXql4P2Es39P0jUzRcmh3Us-lvq0kS0JQzJyMQwS4x1iayQzak-2zEYp2RlpU6QBzodS6dcdJBvHPN9ak11GZPi4t5T1pVoSVeTSJ6Llw37RKfDQtv0g1xGwm4FantILXKcM6kkZxHMAqzvP94nEnVh2yTo63_eIOeTEELgKOG4cQzSSeuuzfo9B6Sxlc08EJ-LdteEYcPwcz5zk6_XU5mAVQl1L-C1Tz5AXSNRcqPwW-2PGmhYF3UpCHvMRFalNYDdwGN0sso3-N6ba2SzG-TQeTY9ddFpDao-f1_9vTm8xcX0Nqplquuevg'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:04:18] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:04:18] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:04:19] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:04:19] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjViNDg1YTJhNTk5MzkyNzU2MmQ2YTUwODVmYzM2YjEzNDczMzc1NzU5NGU1Zjc1MTU4M2MyM2JjN2NjMzJlNzAwNTdjOWE2MWFjMmQ2ZjU1IiwiaWF0IjoxNjY3NzM2MjY5LCJuYmYiOjE2Njc3MzYyNjksImV4cCI6MTY2NzczOTg2OSwic3ViIjoiIiwic2NvcGVzIjpbXX0.rL93nKbOEBXLRN7kpIAfyMXAEqu5zwKftjJuQhxkxRpl98CeU5rczq1l42qd-7H1yrscUgfmEWx_he54EiQHo_vO-dlTVyrVB8w9EkMyoakJI9jhQ9PBuv3qMtZ_JH0AiSk0PqfatN3_ybcxOI82QFajKYheHkCgfa4M1Yy-scv-2S_DkTx0MyIBvQu0KHr8-Y4LEpPSJK_Hk8vWpa2UnpS3PtlPOfS_XNtP52tMkggbwbPKpiefz-xB2ybNLQE1iSbROTk0Y0_ZIbSkBwBd6gOuEe-Ll2JTlvXI149rqdAntacyMyWVwb4nm2-Rloamd8TgvyDPOaiIP2IPA5mbpg'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:04:40] "[35m[1mPOST /adopt HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:04:40] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:04:40] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:04:41] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:04:41] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjllMDgwNDkwOTEzM2QzMjFiNWQwODVmYmY3ZjNjYWUyNjg0ZGEyNjEwYWIxZjc3NmRkMmMwYTkyZTBkZDJhNzdhODc2YTZlMThkZGE2MjNiIiwiaWF0IjoxNjY3NzM2MzE3LCJuYmYiOjE2Njc3MzYzMTcsImV4cCI6MTY2NzczOTkxNywic3ViIjoiIiwic2NvcGVzIjpbXX0.X6JuTjNM7b3acMJcOGp41wFHvCpkO7fDI4ndmLBtbNLJb5fBvrOryaGaqXpeGX3qQGtBHvAPvqvE0hzNBgpNpu7SRpjEjaj7uqLLUulUc-MWAVLe4NSgOcqZDidjjxqXNsjlHMNGGui7hJytt7c5MxwRxPmh3QFHwPw6OAUeBzMrgaSGIyHtt_grq9kzTEvFcvZOm-fa5VC1bE29EmOz8kLzCGpkJZgWGp0anEN1u69SBsFQ3Dpgz4KLIqh1_MrnZrGbykVr6NRnzhc5O-eWVAFfpiKDhqgm5msKyahPH4DV1pKzU2xnda-Pbk0JsazQupHF0Mq9FREzB-yf4BiekA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:05:21] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:05:21] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:05:21] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:05:21] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:05:23] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:05:24] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:06:56] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:06:57] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:06:57] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:06:57] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjYxMzNlODIxZjU4OWJiZjg4ZjBjMDE1ODlmYWE5ZWZiY2E4OTdhOGY3NjE1MDI4NjRhM2UwMTE2NzA3ODI2NzE4NGVkMDEzNGI5OTkxNzQxIiwiaWF0IjoxNjY3NzM2NDI1LCJuYmYiOjE2Njc3MzY0MjUsImV4cCI6MTY2Nzc0MDAyNSwic3ViIjoiIiwic2NvcGVzIjpbXX0.FhecM3SP3co81BayMhzVVObFFue0HM26aTwAAtynyDvW4KvyVhIg0BU37_mzN7KWTfWshfPZ_F6bzKLSAvRWhritRBtlox6RhzyEIdXOXjYKp4ZDJPhhwDHwmmzUiSBQy_QBaiQ2GEjgNTllzQhI3PQshzEj7lrYfXMS1ZQc0hSSzz9DD1ZtZxbWSPVAJOCoTdn2tOPuUKBulD1R3o8TAVbETgBrIEIAmLiTqAnxhuo9oZ5MbkjjLGE20nxlBqX7tJqV2SbZs1VMqrV9nJ-xowDTSAf1fPRS8lKZ4G-GHdvccPp5wW3XPAnr3bX-Er2cS3dPqCAkg2vPgB5h1fbOdQ'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:07:09] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:07:09] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:07:09] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:07:09] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:07:09] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:20:08] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:20:09] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:20:09] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:20:09] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjhkMWFjYWQwMmM5YzRkMDg3MjJkY2EzZmZlYmMwMjdlNzQzOGE0ZTVjNTE2ZjgxZTc3YTg1ZDkwZTZlMTVlYTlkYjdmOGFiYzVhZGEwMjU0IiwiaWF0IjoxNjY3NzM3MjE5LCJuYmYiOjE2Njc3MzcyMTksImV4cCI6MTY2Nzc0MDgxOSwic3ViIjoiIiwic2NvcGVzIjpbXX0.N3u-84bY7HSn-SEtS2klx4jiUzylM7LUzPLwAQgd_S2uylGtdwQNg6co4pYkbSKD186iHcHdvHWm8u1AjNKGInXH_j841-7-IDRkngyU_n4DM5yVPK-E04kivvkWURvE5w8EXe-E0Sxdxq0JHZsSFhxjZMz6pphO4qVPw31KMrqkLBcxkqPJCM6CxG9uvfGdH08gMb8yvUsIXP2UYYlnV88kAkpBkDF9pmYT0RjZfNoe6ikZZ5DW62Rx5YMPgtSvAXFFQgCv0-cfiKDAwMfvBmrxHmbrPkruMnCF7YnmIxNcpitFdeedP4EHGhJVsM8zGYX0Bp6OfsVoAl1EIkNL2w'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:20:23] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:20:23] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:20:23] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:20:23] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:20:24] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:21:09] "GET /adopt HTTP/1.1" 200 -
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjhhNWJhZDdhNTkyNGFjODQzNGJhNjIxMjQzNGEyZjU3NWY0OGE4YTY1NmI2OTY3NWJiZTc1ZGI5MDU3MDczYTFmMzA2ZTliMzlkOGY5ZjBmIiwiaWF0IjoxNjY3NzM3MjczLCJuYmYiOjE2Njc3MzcyNzMsImV4cCI6MTY2Nzc0MDg3Mywic3ViIjoiIiwic2NvcGVzIjpbXX0.tosGifpLa4Rkolo-LZY1qMuuKlmkvynU8mrvAiUjTXZLV90mTj0yeAQawppt1d3q5xWaLRxq82HuDCGp13NF6ppSNgsPlYLa9dR0PEaQ0Zsf5Yh_t2yEbRYeAXBgbNE11_fWIEuUeZAsqGGAXuhymAnReIR9RPZy9MaAdAUZjSEPPpIkFYbVYOaAN6LN2JD_xP8LeSdiHleMj4DY9K1ilI_9VTZgj3mA8D4eQ88GiXK6fmryC9eDd3eLU5A8WotHnzdxk13qiI3glOzFIenPbLxWCoicL_ucuYghBeTNfcUVRWeuGgLM_W6lqFQBeYtTlVPElV2CYobtn-x1QskyMw'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - No senior pets in user selection
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:21:18] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:21:18] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:21:18] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:21:18] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:21:19] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/utils.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:22:49] "GET /adopt HTTP/1.1" 200 -
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImVmYmQ5ZjRlOTU0OWZiOWE5YjVkYjU2MWUxZWVhMGE4YjVlNjYzMGYxNzRiMDM1ZGRkOTE4M2NmMWUwZTZhODMxYzM3NDgzNDhjNmU1ZTg3IiwiaWF0IjoxNjY3NzM3Mzc3LCJuYmYiOjE2Njc3MzczNzcsImV4cCI6MTY2Nzc0MDk3Nywic3ViIjoiIiwic2NvcGVzIjpbXX0.ARZmDWaydeunlxe7FkOs9jakls6PlPq8jFv8EgeTgv-WPQng-TgnO9ZsNIbANmdX9s2QKn0URikJBBQukzMbDJb8kb9EMvN02hMNcmlACCQAxbZ6O_NH7W53vpT3bSgpuXwSzEGv44FnyHKXu9pPDgdBYRY1xmpgjFVCBBbL2RLDlSoFMUfG-K8EWBlzc9OebrzYKnPAm5nJhCipvpLJI6mX3Ope0A2wZ509mvnuY07K3rVyWTBkS_NNmlju0wPcxspWlEiIhO0SyMM8LEaRAbufhjrhBIqt-dCGdGZCmOJuPG2T75_ERnfEu3PPTTuaNjNLptGNpSTsnDZbPydZVA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:23:02] "[35m[1mPOST /adopt HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:23:02] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:23:02] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:23:02] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:23:02] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in '/Users/Jodie/PycharmProjects/cfg-project/cfg-project-group1/app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjhlNmMxYjRlNzM3ODViZWZhY2MyNDllNDVlZDEyNzlkZjJiY2ZiYzZlYmRjZmE5OTU3NTczZWY1M2ZhMGYzMDQwYjgyNTMwNTFkYzE3NzRkIiwiaWF0IjoxNjY3NzM3NDQ1LCJuYmYiOjE2Njc3Mzc0NDUsImV4cCI6MTY2Nzc0MTA0NSwic3ViIjoiIiwic2NvcGVzIjpbXX0.OpzlQhhuERCNw_a_da8-LgFZSs2hhQGvw_tCv4-Aw9TGmpNQjknjQo5pklFANWGK_TD6uq1cgTQwNZEbOv3Xg6Rffq4uubQPH5OcO9vv-g4wd4-sXav5UAU3e1m5KsK24BWSngexbbufePfSkZr8_ORnK5J2CSryrbNpK83EuYRGhHLg-L-goHSl323jysDlmkEOSgHjXkWS9FcHJTkK0oq_uhFUcxzyLMIe5fc0oP-LiXWKjLIbvMpsEuuf2QD2G0yJ1KxFN625h8o4mLzmvw9OY9znCvs9pT0zWb0eYCZQnw74oVFeRKXq5pvEyRytE483UmzNSn3aTnm6_joGQQ'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:24:10] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:24:10] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:24:10] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:24:10] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:25:24] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:25:24] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:25:25] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:25:25] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Dog, size = Medium, good with children = False, good with dogs = True, good with cats = False, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImNkOTNjZTk3M2M0NmFkZDhiMjI5M2I1ODJjMjZmM2UxYTBjYjI3NGNkZWYxYmEyMGJhM2UzYzRhNzE2OWQxMTFhMTFkNDAzZDhkNjQ0NWYyIiwiaWF0IjoxNjY3NzM3NTM0LCJuYmYiOjE2Njc3Mzc1MzQsImV4cCI6MTY2Nzc0MTEzNCwic3ViIjoiIiwic2NvcGVzIjpbXX0.GhXv1gQzy4AdckRraE-zrqZz5ABHspWCNaJoM3V0yk_uGjHWRk4R-WC8EIBVYLV23pTkCXR34hhGvlKEdgN46sqr6EXzJphcccZMioiWDjBC8n7yva215WhoamgOEvcfg6FCzXXP3cjp4_6DP0wPeqR6F_KSBIpcoJowltSiogXReIH_RZXPsSBSV1oQCkY2m8KRoqjMFyrK9kLjZHJyBJbOLJvMi1NtBXUu11fvaAEsz6-Tmpkbk4_hoc2jHjje-x1NF3V728VbfOSAFnt__Ds0MEB-yKcH9ZaOYnWIo5Rq6KfzgeM8nNbYggi-Glu6GflbMh1FmBtN4xmeif3gMA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:25:37] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:25:38] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:25:38] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:25:38] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:25:39] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:25:49] "GET /adopt HTTP/1.1" 200 -
+root - INFO - User specified choices were Dog, size = Small, good with children = False, good with dogs = True, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6ImQ5YTliZDhlNGYwYmM3YzMxYTY0NGQzZGU3ZTU3MWZkYTM0MmQ1NDM2ZDA1NmE5MDdiZDcwNjZlYzkzYjc2NWM3NmMxNTgxYzgzOWVkNDAzIiwiaWF0IjoxNjY3NzM3NTU5LCJuYmYiOjE2Njc3Mzc1NTksImV4cCI6MTY2Nzc0MTE1OSwic3ViIjoiIiwic2NvcGVzIjpbXX0.L6lB3Qnd8rDYN_UTXPS6oq8soIxlcs3UbihA_EfRrIs02MM3HPkWqSbGDJ6Pb3K-Dzjg9odXBvoJne--FQCBGqDmGHkA4asAHLr5CELHj7ObVGtcdKFTkybzyOMG2zQEC8Rs5R61URCbLAc6lZn5fSS72I4XAgnvzqj5HRCd-OLv6w6ZR-ReZlIW8kZYEolBI9SPWFLeoIiiGunpXuPtAGfax-oUiNOR9a8uzKsaubyRQcm0FE_v4hIt_FxOdt4Et5To8QQbfEF8p0rTPPa9l-nsPAInEQhDevU1e9GPycIQDA7wVwwqMyPKfQTcXQijssySv3Tc9qKh57f2vFQPSw'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:26:08] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:26:08] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:26:08] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:26:08] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:26:15] "[36mGET /static/images/animals.jpeg HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:36:10] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:36:11] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:36:11] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:36:11] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 423-162-910
+root - INFO - User specified choices were Dog, size = Medium, good with children = True, good with dogs = True, good with cats = True, house trained = False, special needs = False
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjkyZjlmMzBjNWY1MTNlYTZlNzkyYTRiMDYyODFhOGE5OTE4NzM1YmExNTNiYmVlMzQzZDFjZmIxMjliNDE2NGI2MDM5MWJiNDJmYmU5MmFmIiwiaWF0IjoxNjY3NzM4MjE2LCJuYmYiOjE2Njc3MzgyMTYsImV4cCI6MTY2Nzc0MTgxNiwic3ViIjoiIiwic2NvcGVzIjpbXX0.q4jkg8EStJnFbGG-G-3s-JANSPwDY55z6ZTHQf38ceOAiEqrGfSdv_349kdBrv2EE14Se_ZXiapQ0voIjbjPqWexve8mNwEAz5FBf2L44jtd44TN_UDNBQlsBzpv43rZb2Gg53Yg98w1so5bIC64gtyCojJm2wX7T0utM9dJr0kXUbo-MSflJn3H-6KkYAxH5CfgSu0FdpSNhn00R-jayUg7WoHTOha_SU1pYZ2_QM2f3EKBygHMKEAvRypb1VP-5OKHlM3YOo6BW9qNsIBjSobnumtjVSQGMthbV2Hcl7EyWt1181nGOVpr_YkdASLq9TL8rKpsWqVG6NAK4sX2pA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+root - INFO - User specified choices were Cat, size = Small, good with children = True, good with dogs = True, good with cats = True, house trained = True, special needs = True
+root - INFO - Response code <Response [200]>
+root - INFO - resp.json returns dictionary {'token_type': 'Bearer', 'expires_in': 3600, 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJDV3lNaDVrWFVhWkRrM08xZVF6VkF2UU5WTExmbVRGVmplOXdnVXJIMmJvWDlkVkdYNiIsImp0aSI6IjMyM2Y1YjU4YjRjZjYyOTU4ZmJkZDczYzM3MzAyYjMwOTVhMmZmMWY2YmRlYzRhMmQ0Nzg5MzNkY2E0NmViYTI5ZTJmODI2ODgwZDI3MTliIiwiaWF0IjoxNjY3NzM4MjkxLCJuYmYiOjE2Njc3MzgyOTEsImV4cCI6MTY2Nzc0MTg5MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.cwa8XIUlcHRTlqQBqJ6PTX8nSthxfxtVLJxa3OYP7uNDM_OxGbfb_YliL4pCfOwbLpP5_0tUVeX5f2OBVDksBe67BBl2gX59D_trlyR3PHvZqEpYSRrOOks4gJHOsiSTZqnaCDNvjUPLgzEqijlpvbscTXcvGguGwXCPbazL8qoQquiFlGukvtnsEKxRJ32BNMhFX-lb34lKP3hQiwkXpNZcJ1eCRN6Wc5R3GqFufh-ps0PiO1QLi3XjgA59fn8JwOrSpU6lRIWwXMJTvzIy-KnqgJ9jFmfHZbaN81WKhtMGG0zFAQwl-JBk931OlQGp5ey3Tj3XlDSCY9_kLrX7wA'} inc. access token
+root - INFO - access token successfully generated
+root - INFO - Response code <Response [200]>
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:38:16] "POST /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:38:16] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:38:16] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [06/Nov/2022 12:38:16] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 374-955-722
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:02] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:03] "GET /static/styles2.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:03] "GET /static/images/profile.png HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:03] "GET /static/images/cover.png HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:03] "GET /static/images/animals2.jpeg HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:03] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:06] "GET /adopt HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:06] "[36mGET /static/images/profile.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:06] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:06] "[36mGET /static/styles2.css HTTP/1.1[0m" 304 -
+root - INFO - User specified choices were Cat, size = Medium, good with children = True, good with dogs = False, good with cats = False, house trained = False, special needs = False
+root - INFO - Response code <Response [401]>
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:13] "[35m[1mPOST /adopt HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:13] "GET /adopt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:13] "GET /adopt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:13] "GET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [12/Oct/2023 17:07:13] "[36mGET /adopt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

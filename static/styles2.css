@@ -1,0 +1,84 @@
+body {
+
+  text-align: center;
+  margin-top: 50px;
+  background-image: linear-gradient(to right, #ddd6f3, #faaca8);
+
+}
+
+
+h3 {
+  font-size:
+  margin-bottom: 50px;
+  font-family: Arial Narrow, sans-serif;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  margin: 30px auto;
+  display: flex;
+  max-width: 600px;
+  box-shadow: 1px 1px 20px rgba(127, 79, 135, 0.2);
+}
+
+
+.main_image_container {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 20px rgba(127, 79, 135, 0.2);
+}
+
+
+.about_us_container {
+  margin: 30px auto;
+  padding: 20px;
+  display: flex;
+  max-width: 60%;
+  justify-content: center;
+  background-color: #F3E9F1;
+}
+
+.btn {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  color: black;
+  text: capitalize;
+  background-color: #F3E9F1;
+  cursor: pointer;
+  }
+
+.search_form_container {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+  background-color: #F3E9F1;
+  box-shadow: 1px 1px 20px rgba(127, 79, 135, 0.2);
+}
+
+.form-control {
+  background-color: #F3E9F1;
+  list-style-type: none;
+  font-family: Arial, sans-serif;
+
+}
+ .col-md-4 {
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+    height:35px;
+	width:60px;
+	align-self: flex-start;
+    text-align: center;
+    text
+    mt-auto;
+}
+
+.navbar {
+ box-shadow: 1px 1px 20px rgba(127, 79, 135, 0.2);
+}

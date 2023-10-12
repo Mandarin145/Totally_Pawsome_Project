@@ -1,0 +1,38 @@
+<!--new code after here-->
+
+{% extends 'base2.html' %}
+
+{% block content %}
+<title>Pet Options</title>
+<div class="card-deck">
+<!--  first card-->
+  <div class= "row">
+    {% for pet in pets %}
+    <div class ="col-md-4">
+      <div class="card h-100">
+          {% set image = [] %}
+          {% if pet['photos'] | length > 0 %}
+            {% for photo_item in pet['photos'] %}
+                  {% for size, url in photo_item.items() %}
+                    {% set image = image.append(url) %}
+                  {% endfor %}
+            {% endfor %}
+           <img class="card-img-top" height="345px" width="354px" src="{{image[1]}}" alt="{{pet['breeds']['primary']}} {{pet['breeds']['species']}}" >
+          {% else %}
+              <img class="card-img-top" height="345px" width="354px" src="static/images/animals.jpeg" alt="Card image cap">
+          {% endif %}
+    <div class="card-body d-flex flex-column" >
+      <h5 class="card-title">{{ pet['name'] }}</h5>
+         <p class="card-text">ID: {{ pet['id'] }}</p>
+                   <p class="card-text">{{ pet['age'] }}, {{ pet['gender'] }}</p>
+      <p class="card-text">{{ pet['description'] }}</p>
+      <a class="btn btn-primary mt-auto" href="http://127.0.0.1:5002/customer?pet_id={{pet['id']}}" role="button">Adopt</a>
+    </div>
+    </div>
+    </div>
+    {% endfor %}
+  </div>
+  </div>
+   </div>
+{% endblock %}
+

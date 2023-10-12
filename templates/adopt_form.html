@@ -1,0 +1,39 @@
+{% extends 'base2.html' %}
+
+{% block content %}
+
+<div class="search_form_container rounded container-fluid">
+<div class="form">
+
+    <form action="" method="POST">
+        {{ form.hidden_tag() }}
+
+        <legend>Adopt a Pet</legend>
+            {{ form.cat_or_dog.label(class="form-label") }}
+            {{ form.cat_or_dog(class="form-control") }}
+            <br>
+            {{ form.select_size.label(class="form-label") }}
+            {{ form.select_size(class="form-control") }}
+            <br>
+            {{ form.select_good_with_children.label(class="form-label") }}
+            {{ form.select_good_with_children() }}
+            <br>
+            {{ form.select_good_with_cats.label(class="form-label") }}
+            {{ form.select_good_with_cats() }}
+            <br>
+            {{ form.select_good_with_dogs.label(class="form-label") }}
+            {{ form.select_good_with_dogs() }}
+            <br>
+            {{ form.select_house_trained.label(class="form-label") }}
+            {{ form.select_house_trained() }}
+            <br>
+            {{ form.select_special_needs.label(class="form-label") }}
+            {{ form.select_special_needs() }}
+
+            {{ form.send(class="btn btn-lg btn-light") }}
+    </form>
+
+</div>
+</div>
+
+{% endblock %}
